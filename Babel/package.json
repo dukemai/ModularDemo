@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node app/main.js --out-file build/main.js --presets=add-module-exports,transform-es2015-modules-amd"
+    "start": "babel app/main.js --out-file build/main.js"
   },
   "author": "",
   "license": "ISC",

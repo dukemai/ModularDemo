@@ -1,2 +1,2 @@
 import * as App from '../app/app';
-App.setup();
+App.default.setup();
