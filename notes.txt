@@ -1,0 +1,8 @@
+CommonJS(Webpack, Browserify)
+    - CommonJS is a way of defining modules with the help of an exports object, that defines the module contents.
+    - CommonJS was not particularly designed with browsers in mind, so it doesn't fit in the browser environment very well 
+AMD(RequireJS)
+    - which is designed to suit the browser environment(source)
+    - the new feature in AMD is the define() -function that allows the module to declare its dependencies before being loaded.
+UMD(systemJS)
+    - a “universal” pattern that supports both styles AMD and CommonJS

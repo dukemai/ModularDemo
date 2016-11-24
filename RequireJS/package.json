@@ -1,0 +1,14 @@
+{
+  "name": "requirejsdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "requirejs": "*"
+  },
+  "scripts": {
+    "start": "node node_modules/requirejs/bin/r.js -o requirejs-build-optimizer.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
